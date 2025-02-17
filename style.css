@@ -36,10 +36,27 @@ ol{
 }
 
 img{
+    /* display: block;
     height: auto;
-    width: 320px;
+    width: 320px; */
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 37%;
+  border: 20px solid rgb(83, 13, 13);
 }
 
 *{
     background-color: antiquewhite;
 }
+
+div{
+    border: 5px solid rgb(0, 0, 0);
+}
+
+body{
+    width: 1000px;
+  margin: 0 auto;
+  padding: 10px ;
+}
+
